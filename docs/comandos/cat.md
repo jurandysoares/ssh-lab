@@ -13,7 +13,7 @@ cat
 Print and concatenate files.
 
  - Print the contents of a file to the standard output:
-   cat {{file}}
+   cat {{arquivo}}
 
  - Concatenate several files into the target file:
    cat {{file1}} {{file2}} > {{target_file}}
@@ -22,8 +22,8 @@ Print and concatenate files.
    cat {{file1}} {{file2}} >> {{target_file}}
 
  - Number all output lines:
-   cat -n {{file}}
+   cat -n {{arquivo}}
 
  - Display non-printable and whitespace characters (with M- prefix if non-ASCII):
-   cat -v -t -e {{file}}
+   cat -v -t -e {{arquivo}}
 ```

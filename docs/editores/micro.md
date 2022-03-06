@@ -8,7 +8,7 @@ Saída do comando: `tldr micro`
 
 ```
  - Abrir um arquivo:
-   micro {{file}}
+   micro {{arquivo}}
 
  - Salvar um arquivo:
    Ctrl + S
