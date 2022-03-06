@@ -7,9 +7,9 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Jurandy Soares" name="author"/>
 <link href="../../assets/images/favicon.png" rel="icon"/>
-<meta content="mkdocs-1.2.3, mkdocs-material-8.1.2" name="generator"/>
-<title>Micro - SSH - Lab</title>
-<link href="../../assets/stylesheets/main.f7951f6f.min.css" rel="stylesheet"/>
+<meta content="mkdocs-1.2.3, mkdocs-material-8.2.1" name="generator"/>
+<title>micro - SSH - Lab</title>
+<link href="../../assets/stylesheets/main.e8d9bf0c.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.e6a45f82.min.css" rel="stylesheet"/>
 <meta content="#4cae4f" name="theme-color"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -22,6 +22,9 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
+<a class="md-skip" href="#micro">
+          Ir para o conteúdo
+        </a>
 </div>
 <div data-md-component="announce">
 </div>
@@ -43,7 +46,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Micro
+              micro
             
           </span>
 </div>
@@ -254,22 +257,58 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          micro
+          <span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
-        Micro
+        micro
       </a>
+<nav aria-label="Índice" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exemplos">
+    Exemplos
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../nano/">
-        Nano
+        nano
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../vim/">
-        Vim
+        vim
       </a>
 </li>
 </ul>
 </nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Índice" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exemplos">
+    Exemplos
+  </a>
 </li>
 </ul>
 </nav>
@@ -278,7 +317,31 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>Micro</h1>
+<h1 id="micro">micro</h1>
+<p>Micro é um editor de texto moderno e intuitivo baseado em terminal. Você pode usar seu teclado, mas também o mouse para navegar e/ou selecionar texto.</p>
+<h2 id="exemplos">Exemplos</h2>
+<p>Saída do comando: <code>tldr micro</code></p>
+<pre><code> - Abrir um arquivo:
+   micro {{file}}
+
+ - Salvar um arquivo:
+   Ctrl + S
+
+ - Corte a linha inteira:
+   Ctrl + K
+
+ - Procure por um padrão no arquivo (pressione Ctrl + N/Ctrl + P para ir para o casamento posterior/anterior):
+   Ctrl + F "{{padrão}}" &lt;Enter&gt;
+
+ - Executar um comando:
+   Ctrl + E {{comando}} &lt;Enter&gt;
+
+ - Execute uma substituição em todo o arquivo:
+   Ctrl + E replaceall "{{padrão}}" "{{substituição}}" &lt;Enter&gt;
+
+ - Sair:
+   Ctrl + Q
+</code></pre>
 </article>
 </div>
 </div>
@@ -298,13 +361,13 @@
             </div>
 </div>
 </a>
-<a aria-label="Próximo: Nano" class="md-footer__link md-footer__link--next" href="../nano/" rel="next">
+<a aria-label="Próximo: nano" class="md-footer__link md-footer__link--next" href="../nano/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Próximo
               </span>
-              Nano
+              nano
             </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -329,7 +392,7 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}, "search": "../../assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
-<script src="../../assets/javascripts/bundle.649a939e.min.js"></script>
+<script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}, "search": "../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+<script src="../../assets/javascripts/bundle.8aa65030.min.js"></script>
 </body>
 </html>

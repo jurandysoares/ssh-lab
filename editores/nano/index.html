@@ -7,9 +7,9 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Jurandy Soares" name="author"/>
 <link href="../../assets/images/favicon.png" rel="icon"/>
-<meta content="mkdocs-1.2.3, mkdocs-material-8.1.2" name="generator"/>
-<title>Nano - SSH - Lab</title>
-<link href="../../assets/stylesheets/main.f7951f6f.min.css" rel="stylesheet"/>
+<meta content="mkdocs-1.2.3, mkdocs-material-8.2.1" name="generator"/>
+<title>nano - SSH - Lab</title>
+<link href="../../assets/stylesheets/main.e8d9bf0c.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.e6a45f82.min.css" rel="stylesheet"/>
 <meta content="#4cae4f" name="theme-color"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -22,6 +22,9 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
+<a class="md-skip" href="#nano">
+          Ir para o conteúdo
+        </a>
 </div>
 <div data-md-component="announce">
 </div>
@@ -43,7 +46,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Nano
+              nano
             
           </span>
 </div>
@@ -254,22 +257,58 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
 <a class="md-nav__link" href="../micro/">
-        Micro
+        micro
       </a>
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          nano
+          <span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
-        Nano
+        nano
       </a>
+<nav aria-label="Índice" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exemplos">
+    Exemplos
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../vim/">
-        Vim
+        vim
       </a>
 </li>
 </ul>
 </nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Índice" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exemplos">
+    Exemplos
+  </a>
 </li>
 </ul>
 </nav>
@@ -278,14 +317,35 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>Nano</h1>
+<h1 id="nano">nano</h1>
+<p>Simples, fácil de usar o editor de texto de linha de comando. Um clone do pico, melhorado e gratuito.</p>
+<h2 id="exemplos">Exemplos</h2>
+<p>Saída do comando: <code>tldr nano</code></p>
+<pre><code> - Open a new file in nano:
+   nano
+
+ - Open a specific file:
+   nano {{caminho/para/arquivo}}
+
+ - Open a specific file, positioning the cursor at the specified line and column:
+   nano +{{line}},{{column}} {{caminho/para/arquivo}}
+
+ - Open a specific file and enable soft wrapping:
+   nano --softwrap {{caminho/para/arquivo}}
+
+ - Open a specific file and indent new lines to the previous lines' indentation:
+   nano --autoindent {{caminho/para/arquivo}}
+
+ - Open nano and create a backup file (file~) when saving edits:
+   nano --backup {{caminho/para/arquivo}}
+</code></pre>
 </article>
 </div>
 </div>
 </main>
 <footer class="md-footer">
 <nav aria-label="Rodapé" class="md-footer__inner md-grid">
-<a aria-label="Anterior: Micro" class="md-footer__link md-footer__link--prev" href="../micro/" rel="prev">
+<a aria-label="Anterior: micro" class="md-footer__link md-footer__link--prev" href="../micro/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
 </div>
@@ -294,17 +354,17 @@
 <span class="md-footer__direction">
                 Anterior
               </span>
-              Micro
+              micro
             </div>
 </div>
 </a>
-<a aria-label="Próximo: Vim" class="md-footer__link md-footer__link--next" href="../vim/" rel="next">
+<a aria-label="Próximo: vim" class="md-footer__link md-footer__link--next" href="../vim/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Próximo
               </span>
-              Vim
+              vim
             </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -329,7 +389,7 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}, "search": "../../assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
-<script src="../../assets/javascripts/bundle.649a939e.min.js"></script>
+<script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}, "search": "../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+<script src="../../assets/javascripts/bundle.8aa65030.min.js"></script>
 </body>
 </html>
