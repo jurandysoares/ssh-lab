@@ -1,0 +1,50 @@
+site_name: SSH - Lab
+site_author: Jurandy Soares
+
+theme:
+  name: material
+  language: pt
+  palette:
+    primary: green
+
+plugins:
+  - mermaid2
+
+markdown_extensions:
+  - admonition
+
+nav:
+  - Início: index.md
+  - conceitos.md
+  - Conceitos:
+    - conceitos/repl.md
+    - conceitos/wysiwyg.md
+    - conceitos/cli-gui-api.md
+    - conceitos/path.md
+    - conceitos/comandos.md
+  - clientes.md
+  - github-e-gitlab.md
+  - Atalhos: atalhos.md
+  - comandos.md
+  - Comandos:
+    - comandos/ssh.md
+    - comandos/exit.md
+    - comandos/whoami.md
+    - comandos/hostname.md
+    - comandos/pwd.md
+    - comandos/cd.md
+    - comandos/ls.md
+    - comandos/touch.md
+    - comandos/cat.md
+    - comandos/bat.md
+    - comandos/mkdir.md
+    - comandos/cp.md
+    - comandos/mv.md
+    - comandos/ln.md
+    - comandos/rmdir.md
+    - comandos/rm.md
+  - editores.md
+  - Editores:
+    - editores/micro.md
+    - editores/nano.md
+    - editores/vim.md

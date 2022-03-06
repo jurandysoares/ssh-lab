@@ -1,0 +1,4 @@
+# rmdir
+
+Remove um diretório.
+
