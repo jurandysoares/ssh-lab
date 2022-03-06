@@ -43,6 +43,7 @@ nav:
     - comandos/ln.md
     - comandos/rmdir.md
     - comandos/rm.md
+    - comandos/scp.md
   - editores.md
   - Editores:
     - editores/micro.md
