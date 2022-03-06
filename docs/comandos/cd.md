@@ -13,7 +13,7 @@ cd
 Change the current working directory.
 
  - Go to the given directory:
-   cd {{path/to/directory}}
+   cd {{caminho/para/diretorio}}
 
  - Go to home directory of current user:
    cd

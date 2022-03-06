@@ -16,6 +16,6 @@ mkdir
    mkdir {{directory}}
    
  - Create directories recursively (useful for creating nested dirs):
-   mkdir -p {{path/to/directory}}
+   mkdir -p {{caminho/para/diretorio}}
 
 ```

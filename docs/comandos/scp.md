@@ -11,12 +11,12 @@ Saida do comando: `tldr scp`
 scp
 Secure copy.Copy files between hosts using Secure Copy Protocol over SSH. 
 
- - Copy a local file to a remote host:
-   scp {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}
+ - Copie um arquivo local para um host remoto:
+   scp {{caminho/para/arquivo_local}} {{host_remoto}}:{{caminho/para/arquivo_remoto}}
 
-  - Copy a file from a remote host to a local directory:
-   scp {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}
+  - Copie um arquivo de um host remoto para um diretório local:
+   scp {{host_remoto}}:{{caminho/para/arquivo_remoto}} {{caminho/para/diretorio_local}}
 
- - Recursively copy the contents of a directory from a remote host to a local directory:
-   scp -r {{remote_host}}:{{path/to/remote_directory}} {{path/to/local_directory}}
+ - Copie recursivamente o conteúdo de um diretório de um host remoto para um diretório local:
+   scp -r {{host_remoto}}:{{caminho/para/diretorio_remoto}} {{caminho/para/diretorio_local}}
 ```
