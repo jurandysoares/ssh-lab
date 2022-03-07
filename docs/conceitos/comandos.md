@@ -17,7 +17,7 @@ Há muito pouca redundância nos comandos UNIX -- em vez de fornecer vários com
 
 ## Estrutura de Comandos UNIX
 
-Para executar um comando em um sistema UNIX, você digita o nome do comando, junto com qualquer informação associada, como um nome de arquivo, e pressiona a tecla {kbd}`Enter`. A linha digitada é chamada de linha de comando e o UNIX usa um programa especial, chamado shell ou interpretador de linha de comando, para interpretar o que você digitou no que você deseja fazer. Os componentes da linha de comando são:
+Para executar um comando em um sistema UNIX, você digita o nome do comando, junto com qualquer informação associada, como um nome de arquivo, e pressiona a tecla `Enter`. A linha digitada é chamada de linha de comando e o UNIX usa um programa especial, chamado shell ou interpretador de linha de comando, para interpretar o que você digitou no que você deseja fazer. Os componentes da linha de comando são:
 
 1. O comando;
 2. Quaisquer opções exigidas pelo comando;
